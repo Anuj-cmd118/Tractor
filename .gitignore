@@ -1,0 +1,57 @@
+# ROS 2 Build artifacts
+build/
+install/
+log/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+.pytest_cache/
+
+# C++
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# ROS specific
+*.bag
+*.orig
+*.rej
+devel_isolated/
+build_isolated/
+install_isolated/
+
+# Colcon
+colcon_ws/
+
+# Config files (if they contain sensitive data)
+# config/secrets/
